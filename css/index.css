@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: #F6F6F6;
+}
+ul, input, button{
+  padding: 0;
+  background: none;
+  border: none;
+  margin: 0;
+}
+button:focus, input:focus{
+  outline: none;
+}
+li{
+  list-style: none;
+}
+@media (min-width: 760px) {
+  .container{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+.title{
+  background: #990000;
+  height: 40px;
+  line-height: 40px;
+  color:#fff;
+  font-size: 16px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.title-en{
+  flex: 1;
+}
+.add-list{
+  padding: 10px 0 10px 15px;
+  display: flex;
+}
+.beizhu{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: #EEEEEE;
+  padding: 0 20px;
+  flex: 1;
+}
+.bt-add{
+  font-size: 13px;
+  background: #EEEEEE;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  vertical-align: middle;
+  margin-right: 30px;
+  padding-right: 10px;
+}
+.all-list{
+  padding: 0 30px 0 20px;
+}
+.list{
+  margin-bottom: 15px;
+}
+.list li{
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+.list .list-item{
+  margin-left: 10px;
+  width: 80%;
+}
+.delete{
+  display: inline-block;
+  font: 400 13.3333px Arial;
+  float: right;
+  margin-right: 12px;
+  border: 1px #E0E0E0 solid;
+  color: #E0E0E0;
+  margin-top: 10px;
+  width: 15px;
+  text-align: center;
+  border-radius: 50%;
+  visibility: hidden;
+}
+.delete:hover, .clearAll:hover, .bt-add:hover{
+  cursor: pointer;
+}
